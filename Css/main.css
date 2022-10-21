@@ -14,13 +14,23 @@
 .superior {
     padding-inline: 1.5rem;
     padding-top: 2rem;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-top-left-radius: 0.3125rem;
+    border-top-right-radius: 0.3125rem;
     background: white;
 }
 
 .esquerda {
     padding: 1.5rem;
-    background-color: cyan;
+    background-color:var(--Cyan);
+}
+
+.direita {
+    background-color: var( --light-cyan);
+    padding: 1.5rem;
+}
+
+
+.button {
+    font-size: 1rem;
 }
 
